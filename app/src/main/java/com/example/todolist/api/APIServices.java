@@ -14,7 +14,7 @@ import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface APIServices {
-    @GET("get_todo.php")
+    @GET("todo/get_todo.php")
     Call<List<Todo>> getAllTodo();
 
     @FormUrlEncoded
